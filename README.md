@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](file:///C:/Users/User/Downloads/tipCalculator/tip-calculator-app-main1%20(1)/tip-calculator-app-main/tip-calculator-app-main/index.html)
-- Live Site URL: [Add live site URL here](https://miras0kozhabay.github.io/Tip-calculator-app/)
+- Live Site URL: [https://miras0kozhabay.github.io/Tip-calculator-app/](https://miras0kozhabay.github.io/Tip-calculator-app/)
 
 ## My process
 
