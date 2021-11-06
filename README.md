@@ -54,9 +54,8 @@ Users should be able to:
 
 ### What I learned
 
-We learned to cerrectly place and replace objects on the website, change values and work with JavaScript, we improved our skills working with buttons and functions, we have lot of ways how to develop further
+We learned to correctly place and replace objects on the website, change values and work with JavaScript, we improved our skills working with buttons and functions, we have lot of ways how to develop further
 
-To see how you can add code snippets, see below:
 
 ```html
 starting with <div id="darkcyanBg"> and ending with </div> which close it, for me it is the best what i did in this work
@@ -76,8 +75,6 @@ document.getElementById('totalPerPerson').innerHTML =  "$" + parseFloat(total).t
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 
 ### Continued development
@@ -95,11 +92,10 @@ https://fontawesome.com/ - This is the website, where we get icons and placed it
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [](https://www.your-site.com)
 Kozhabay Miras - https://github.com/Miras0Kozhabay/
 Issayev Rakhat - https://github.com/issayevrakhat/
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
 
 
 ## Acknowledgments
