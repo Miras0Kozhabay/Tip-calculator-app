@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- for icons -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <title>Frontend Mentor | Tip calculator app</title>
+      <script type="text/javascript" src="js.js"></script>
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+         .attribution { font-size: 11px; text-align: center; }
+         .attribution a { color: hsl(228, 45%, 44%); }
+      </style>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <div id="blueBg">
+         <div id="Topic">
+            <span class="Split">Spli</span>
+            <span class="Split" style="padding-top:25px ;">tter</span>
+         </div>
+         <div id="whiteBg">
+            <div>
+               <lable id="Bill">Bill</lable>
+               <i id="dollar" class="fa fa-dollar"></i><input type="number" name="$" id="amount">
+            </div>
+            <div>
+               <label id="select">
+                  Select Tip %</lable><br>
+                  <input class="btn button" type="button" id="first" value="5%" onclick="five()">
+                  <input class="btn button" type="button" id="second" value="10%" onclick="ten()">
+                  <input class="btn button" type="button" id="third" value="15%" onclick="fifteen()">
+                  <input class="btn button" type="button" id="fourth" value="25%" onclick="twentyfive()">
+                  <input class="btn button" type="button" id="fifth" value="50%" onclick="fifty()">
+                  <input class="btn " type="text" id="last" placeholder="Custom">
+            </div>
+            <div>
+            <label id="people">Number of People</label><br>
+            <i id="user" class="fa fa-user"></i><input type="number" name="" id="number">
+            </div>
+            <div id="darkcyanBg">
+               <div>
+                  <label id="Tip">Tip Amount</label><span id="tipAmount"></span>
+                  <label id="persona1">/ person</label>
+               </div>
+               <div>
+                  <label id="Total">Total</label><span id="totalPerPerson"></span>
+                  <label id="persona2">/ person</label>
+               </div>
+               <div id="reset">
+                  <button class="btn btn-block" style="width: 275px; background: hsl(182, 67%, 25%); font-weight: 600; text-transform: uppercase; color: hsl(183, 100%, 15%);" id="buttonR">Reset</button> 
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Group of Students</a>.
+         </div>
+      </footer>
+   </body>
+</html>
