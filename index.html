@@ -4,10 +4,14 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- displays site properly based on user's device -->
+      
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- for icons -->
+
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
       <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      
       <title>Frontend Mentor | Tip calculator app</title>
       <script type="text/javascript" src="js.js"></script>
       <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -31,12 +35,12 @@
             <div>
                <label id="select">
                   Select Tip %</lable><br>
-                  <input class="btn button" type="button" id="first" value="5%" onclick="five()">
-                  <input class="btn button" type="button" id="second" value="10%" onclick="ten()">
-                  <input class="btn button" type="button" id="third" value="15%" onclick="fifteen()">
-                  <input class="btn button" type="button" id="fourth" value="25%" onclick="twentyfive()">
-                  <input class="btn button" type="button" id="fifth" value="50%" onclick="fifty()">
-                  <input class="btn " type="text" id="last" placeholder="Custom">
+                  <input class="btn button buttonClicked buttonDefault" type="button" id="first" value="5%" onclick="five()">
+                  <input class="btn button buttonClicked buttonDefault" type="button" id="second" value="10%" onclick="ten()">
+                  <input class="btn button buttonClicked buttonDefault" type="button" id="third" value="15%" onclick="fifteen()">
+                  <input class="btn button buttonClicked buttonDefault" type="button" id="fourth" value="25%" onclick="twentyfive()">
+                  <input class="btn button buttonClicked buttonDefault" type="button" id="fifth" value="50%" onclick="fifty()">
+                  <input class="btn " type="number" id="last" placeholder="Custom" onclick="Custom()" onkeyup="Custom2()">
             </div>
             <div>
             <label id="people">Number of People</label><br>
@@ -52,7 +56,7 @@
                   <label id="persona2">/ person</label>
                </div>
                <div id="reset">
-                  <button class="btn btn-block" style="width: 275px; background: hsl(182, 67%, 25%); font-weight: 600; text-transform: uppercase; color: hsl(183, 100%, 15%);" id="buttonR">Reset</button> 
+                  <button class="btn btn-block buttonClicked buttonDefault" style="width: 275px; background: hsl(182, 67%, 25%); font-weight: 600; text-transform: uppercase; color: hsl(183, 100%, 15%);" id="buttonR">Reset</button> 
                </div>
             </div>
          </div>

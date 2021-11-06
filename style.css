@@ -37,6 +37,10 @@ color: hsl(183, 100%, 15%);
 	position: absolute;
 	top: 40px;
 	left: 40px;
+
+}
+#BIll.popUp{
+	animation:pop 0.25s ease-in-out;
 }
 #dollar{
 	position: absolute;
@@ -109,9 +113,19 @@ position: absolute;
 	top: 80px;
 	left: 250px;
 }
+/*hsl(172, 167%, 35%) when button clicked*/
+.buttonClicked{
+	background: hsl(172, 167%, 35%);
+	color: hsl(183, 100%, 15%);
+}
+/*other way default*/
+.buttonDefault{
+	background: hsl(183, 100%, 15%);
+	color: #fff;
+}
 .button{
 	width: 100px;
-	border: 1px solid hsl(183, 100%, 15%);
+	
 }
 #people{
 position: absolute;
@@ -163,7 +177,28 @@ position: absolute;
 #tipAmount{
 	position: absolute;
 		top: 40px;
-		left: 150px ;
+		left: 230px ;
+		font-size: 33px;
+		font-weight: 700;
+		letter-spacing: .5px;
+		color: hsl(172, 167%, 35%);
+}
+
+
+#totalPerPerson{
+	position: absolute;
+		top: 130px;
+		left: 230px;
+		font-size: 33px;
+		font-weight: 700;
+		letter-spacing: .5px;
+		color: hsl(172, 167%, 35%);
+}
+
+#Total{
+		position: absolute;
+		top: 130px;
+		left: 40px;
 		color: white;
 }
 #persona1{
@@ -171,18 +206,6 @@ position: absolute;
 		top: 60px;
 		left: 40px;
 		color: hsl(189, 10%, 60%);
-}
-#totalPerPerson{
-	position: absolute;
-		top: 130px;
-		left: 100px;
-		color: white;
-}
-#Total{
-		position: absolute;
-		top: 130px;
-		left: 40px;
-		color: white;
 }
 #persona2{
 		position: absolute;
